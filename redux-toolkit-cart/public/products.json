@@ -1,0 +1,50 @@
+[
+   {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "price": 99.99,
+      "image": "/src/assets/headphones.jpg",
+      "description": "Premium wireless headphones with noise cancellation and 30-hour battery life.",
+      "category": "Electronics"
+   },
+   {
+      "id": "2",
+      "name": "Smart Watch",
+      "price": 249.99,
+      "image": "/src/assets/smartwatch.jpg",
+      "description": "Advanced fitness tracking with heart rate monitor and GPS functionality.",
+      "category": "Electronics"
+   },
+   {
+      "id": "3",
+      "name": "Coffee Maker",
+      "price": 79.99,
+      "image": "/src/assets/coffee-maker.jpg",
+      "description": "Programmable drip coffee maker with thermal carafe and auto-brew feature.",
+      "category": "Appliances"
+   },
+   {
+      "id": "4",
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "image": "/src/assets/bluetooth-speaker.jpg",
+      "description": "Portable waterproof speaker with 12-hour battery and crystal-clear sound.",
+      "category": "Electronics"
+   },
+   {
+      "id": "5",
+      "name": "Laptop Stand",
+      "price": 34.99,
+      "image": "/src/assets/laptop-stand.jpg",
+      "description": "Adjustable aluminum laptop stand with cooling design and ergonomic positioning.",
+      "category": "Accessories"
+   },
+   {
+      "id": "6",
+      "name": "USB-C Hub",
+      "price": 59.99,
+      "image": "/src/assets/usb-c-hub.jpg",
+      "description": "7-in-1 USB-C hub with HDMI, USB 3.0, SD card reader, and fast charging support.",
+      "category": "Accessories"
+   }
+]
