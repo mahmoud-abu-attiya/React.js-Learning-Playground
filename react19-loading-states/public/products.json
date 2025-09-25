@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Headphones",
+    "price": 99.99,
+    "image": "src/assets/headphones.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Smartwatch",
+    "price": 149.0,
+    "image": "src/assets/smartwatch.jpg"
+  },
+  {
+    "id": 3,
+    "title": "USB-C Hub",
+    "price": 39.5,
+    "image": "src/assets/usb-c-hub.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Bluetooth Speaker",
+    "price": 79.99,
+    "image": "src/assets/bluetooth-speaker.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Laptop Stand",
+    "price": 29.99,
+    "image": "src/assets/laptop-stand.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Coffee Maker",
+    "price": 59.0,
+    "image": "src/assets/coffee-maker.jpg"
+  }
+]
