@@ -4,19 +4,14 @@ This project demonstrates how to implement a **Light/Dark Mode Toggle** in a Rea
 The theme preference is saved in `localStorage`, so the user’s choice remains consistent even after reloading the page.
 
 ---
+![Tailwind Dark Mode Switch gif](https://i.postimg.cc/Bv6BfvNS/Tailwind-Dark-Mode-Switch-ezgif-com-video-to-gif-converter.gif)
+---
 
 ## Features
 - Toggle between **Light Mode** and **Dark Mode**.
 - Theme is saved in `localStorage`.
 - Smooth UI with TailwindCSS.
 - Clean and reusable ThemeToggle component.
-
----
-
-## Tech Stack
-- React.js (latest version)
-- TypeScript
-- TailwindCSS
 
 ---
 
