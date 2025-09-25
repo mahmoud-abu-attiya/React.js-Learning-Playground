@@ -7,10 +7,9 @@ Each folder represents a single topic or feature, implemented using the **latest
 
 ## 📂 Topics
 
-- [Redux Counter](./redux-counter) → A simple counter app using **Redux Toolkit**.
-- [Dark Mode with Tailwind](./dark-mode-tailwind) → Light/Dark mode toggle with TailwindCSS.
-- [Multi Language App](./multi-language-app) → Multi-language support using **i18next**.
-- [Loading State](./loading-state) → Handling loading states in React components.
+- [React Redux Toolkit](./tree/main/redux-toolkit-cart/README.me) → A simple shopping cart using Redux Toolkit.
+- [Tailwind Dark Mode Switch](./tree/main/react-tailwind-theme-toggle/README.me) → Light/Dark mode toggle with TailwindCSS.
+- [React 19 Loading States (Skeleton & Spinner)](./tree/main/react19-loading-states/README.md) → Handling loading states in React components.
 - (More topics will be added...)
 
 ---
@@ -32,9 +31,8 @@ Each folder represents a single topic or feature, implemented using the **latest
 
 ---
 
-## 🚀 How to Run a Topic
+## 🌐 Follow & Let's Connect
 
-1. Navigate into a topic folder (e.g., `redux-counter`).
-2. Install dependencies:
-   ```bash
-   npm install
+I’d be more than happy if you reach out to me for any reason — whether it's about React, collaboration, or just to say hi! 
+
+[![LinkedIn](https://img.icons8.com/color/48/linkedin.png)](https://www.linkedin.com/in/mahmoud-abu-attiya-978496210/) [![Instagram](https://img.icons8.com/fluency/48/instagram-new.png)](https://instagram.com/mahmoud_abu_attiya)
