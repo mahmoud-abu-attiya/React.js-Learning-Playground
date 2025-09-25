@@ -23,6 +23,7 @@ function App() {
           <div>
             <h1 className='text-2xl font-semibold'>Modern Loading States</h1>
             <p className='text-sm text-gray-600'>React 19 + TypeScript + TailwindCSS</p>
+            <p className='text-sm text-gray-600'>The products come from a free RESTful API for developers <a href="https://fakestoreapi.com/" target='_blank' className='text-sm text-blue-600 underline'>Fake Store API</a></p>
           </div>
           <div className='flex items-center gap-2'>
             <LoaderSwitch mode={loaderMode} onChange={handleChangeLoader} />
