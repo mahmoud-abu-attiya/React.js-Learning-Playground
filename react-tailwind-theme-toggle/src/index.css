@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* 
+ * Define a custom Tailwind variant called "dark" that applies styles when
+ * either the .dark class is present on the root element or any ancestor.
+ * This enables dark mode styling using the "class" strategy.
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+button { @apply cursor-pointer }

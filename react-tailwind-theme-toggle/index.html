@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Tailwind Theme Toggle</title>
+    <script>
+      // Apply the initial theme ASAP to avoid a flash of incorrect theme (FOUC)
+      // Strategy: Use the "class" method by toggling the `dark` class on the root <html> element
+      // Source of truth: localStorage 'theme' can be 'light' | 'dark' | 'system'
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var isSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = (stored === 'light' || stored === 'dark' || stored === 'system') ? stored : 'system';
+
+          if (theme === 'dark' || (theme === 'system' && isSystemDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (_) {
+          // If accessing localStorage or matchMedia fails for any reason,
+          // gracefully fall back to system preference
+          var fallbackDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (fallbackDark) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
