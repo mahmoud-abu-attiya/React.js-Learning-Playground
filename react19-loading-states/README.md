@@ -21,13 +21,12 @@ Users will see skeletons or spinners while data is being fetched, and React 19 h
 ---
 
 ## Installation
+### Download folder as a zip file
+Get React Redux Toolkit - Shopping Cart Example [click here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fmahmoud-abu-attiya%2FReact.js-Learning-Playground%2Ftree%2Fmain%2Freact19-loading-states)
+
+### Run after Extract the folder
+
 ```bash
-# Clone the repository
-git clone Link would be here
-
-# Navigate to the project folder
-cd react19-loading-states
-
 # Install dependencies
 npm install
 

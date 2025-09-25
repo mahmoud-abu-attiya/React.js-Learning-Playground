@@ -23,13 +23,12 @@ Users can browse a product list, add items to the cart, remove them, and see the
 ---
 
 ## Installation
+### Download folder as a zip file
+Get React Redux Toolkit - Shopping Cart Example [click here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fmahmoud-abu-attiya%2FReact.js-Learning-Playground%2Ftree%2Fmain%2Fredux-toolkit-cart)
+
+### Run after Extract the folder
+
 ```bash
-# Clone the repository
-git clone folder link would be here!
-
-# Navigate to the project folder
-cd redux-toolkit-cart
-
 # Install dependencies
 npm install
 
