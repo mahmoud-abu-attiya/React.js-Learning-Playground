@@ -5,6 +5,8 @@ This project demonstrates how to handle **Loading States** in React with Tailwin
 Users will see skeletons or spinners while data is being fetched, and React 19 hooks are used to manage async state transitions and form submissions more effectively.
 
 ---
+![React 19 Loading States (Skeleton & Spinner) gif](https://i.postimg.cc/DwwNj7Vh/React-19-Loading-States-Skeleton-amp-Spinner.gif)
+---
 
 ## Features
 - Display **Skeleton loaders** while fetching product data.
