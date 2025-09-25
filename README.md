@@ -7,9 +7,9 @@ Each folder represents a single topic or feature, implemented using the **latest
 
 ## 📂 Topics
 
-- [React Redux Toolkit](./tree/main/redux-toolkit-cart/README.me) → A simple shopping cart using Redux Toolkit.
-- [Tailwind Dark Mode Switch](./tree/main/react-tailwind-theme-toggle/README.me) → Light/Dark mode toggle with TailwindCSS.
-- [React 19 Loading States (Skeleton & Spinner)](./tree/main/react19-loading-states/README.md) → Handling loading states in React components.
+- [React Redux Toolkit](https://github.com/mahmoud-abu-attiya/React.js-Learning-Playground/blob/main/redux-toolkit-cart/README.md) → A simple shopping cart using Redux Toolkit.
+- [Tailwind Dark Mode Switch](https://github.com/mahmoud-abu-attiya/React.js-Learning-Playground/blob/main/react-tailwind-theme-toggle/README.md) → Light/Dark mode toggle with TailwindCSS.
+- [React 19 Loading States (Skeleton & Spinner)](https://github.com/mahmoud-abu-attiya/React.js-Learning-Playground/blob/main/react19-loading-states/README.md) → Handling loading states in React components.
 - (More topics will be added...)
 
 ---
