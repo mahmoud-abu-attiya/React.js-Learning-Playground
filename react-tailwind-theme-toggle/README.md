@@ -22,7 +22,7 @@ The theme preference is saved in `localStorage`, so the user’s choice remains 
 
 ## Installation
 ### Download folder as a zip file
-Get React Redux Toolkit - Shopping Cart Example [click here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fmahmoud-abu-attiya%2FReact.js-Learning-Playground%2Ftree%2Fmain%2Freact-tailwind-theme-toggle)
+Get Tailwind Dark Mode Switch [click here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fmahmoud-abu-attiya%2FReact.js-Learning-Playground%2Ftree%2Fmain%2Freact-tailwind-theme-toggle)
 
 ### Run after Extract the folder
 
