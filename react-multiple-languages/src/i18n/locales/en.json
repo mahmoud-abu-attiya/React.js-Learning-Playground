@@ -1,0 +1,17 @@
+{
+  "welcome": "Welcome to our Multi-Language App",
+  "description": "This is a demonstration of internationalization (i18n) using React and i18next. You can switch between English and Arabic languages using the toggle button above.",
+  "features": {
+    "title": "Features",
+    "list": [
+      "Language switching between English and Arabic",
+      "Persistent language selection using localStorage",
+      "Responsive design with TailwindCSS",
+      "TypeScript support for type safety"
+    ]
+  },
+  "persistence": {
+    "title": "Language Persistence",
+    "description": "Your language preference is automatically saved to localStorage and will be restored when you revisit the application."
+  }
+}

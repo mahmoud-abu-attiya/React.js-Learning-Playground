@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* RTL/LTR Direction Support */
+/* Base styles for both directions */
+html {
+  direction: ltr; /* Default LTR */
+}
+
+/* RTL-specific styles */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+/* RTL body class support */
+body.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+body.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* RTL-specific utility classes */
+.rtl .rtl\:text-right {
+  text-align: right;
+}
+
+.rtl .rtl\:text-left {
+  text-align: left;
+}
+
+.rtl .rtl\:flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.rtl .rtl\:space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* RTL-specific spacing adjustments */
+.rtl .rtl\:mr-auto {
+  margin-right: auto;
+}
+
+.rtl .rtl\:ml-auto {
+  margin-left: auto;
+}
+
+/* RTL border adjustments */
+.rtl .rtl\:border-r-4 {
+  border-right-width: 4px;
+}
+
+.rtl .rtl\:border-l-4 {
+  border-left-width: 4px;
+}
+
+/* RTL transform adjustments */
+.rtl .rtl\:scale-x-[-1] {
+  transform: scaleX(-1);
+}
+
+/* RTL icon adjustments */
+.rtl .rtl\:rotate-180 {
+  transform: rotate(180deg);
+}
+
+/* RTL-specific animations */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.rtl .rtl\:animate-slide-in-right {
+  animation: slideInFromRight 0.3s ease-out;
+}
+
+.ltr .ltr\:animate-slide-in-left {
+  animation: slideInFromLeft 0.3s ease-out;
+}
