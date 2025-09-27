@@ -47,7 +47,7 @@ src/
 
 ## Installation & Usage
 ### Download folder as a zip file
-Get Tailwind Dark Mode Switch [click here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fmahmoud-abu-attiya%2FReact.js-Learning-Playground%2Ftree%2Fmain%2Freact-multiple-languages)
+Get React Multiple Languages [click here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fmahmoud-abu-attiya%2FReact.js-Learning-Playground%2Ftree%2Fmain%2Freact-multiple-languages)
 
 ### Run after Extract the folder
 
