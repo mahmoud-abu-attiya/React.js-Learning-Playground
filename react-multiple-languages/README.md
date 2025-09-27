@@ -100,7 +100,7 @@ npm install
 
 # Run the development server
 npm run dev
-
+```
 ---
 
 ## How It Works
